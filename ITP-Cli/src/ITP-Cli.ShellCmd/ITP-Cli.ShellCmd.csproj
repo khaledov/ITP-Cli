@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+  
     <LangVersion>latest</LangVersion>
     <RootNamespace>ITP_Cli.ShellCmd</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -12,6 +12,8 @@
     <Title>ITP Command Client</Title>
     <Authors>Khaledov</Authors>
     <PackageOutputPath>.nuget</PackageOutputPath>
+    <PackageProjectUrl>https://github.com/khaledov/ITP-Cli</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/khaledov/ITP-Cli.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,5 +31,32 @@
     <None Update="AppSettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <_UnmanagedRegistrationCache Remove="obj\ITP-Cli.ShellCmd.csproj.UnmanagedRegistration.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.1\ITP-Cli.ShellCmd.csproj.ResolveComReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <IntermediateAssembly Remove="obj\Debug\netcoreapp3.1\itp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.1\itp.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.1\itp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationManifest Remove="obj\Debug\netcoreapp3.1\itp.dll.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <DeployManifest Remove="obj\Debug\netcoreapp3.1\itp.application" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClsidMap Remove="obj\Debug\netcoreapp3.1\itp.clsidmap" />
+  </ItemGroup>
+  <ItemGroup>
+    <RegFreeComManifest Remove="obj\Debug\netcoreapp3.1\itp.X.manifest" />
   </ItemGroup>
 </Project>

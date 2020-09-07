@@ -89,9 +89,7 @@
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp3.1" t="Include">
-                <e p="win7-x64" t="Include">
-                  <e p="ITP-Cli.ShellCmd.AssemblyInfo.cs" t="Include" />
-                </e>
+                <e p="ITP-Cli.ShellCmd.AssemblyInfo.cs" t="Include" />
               </e>
             </e>
           </e>
